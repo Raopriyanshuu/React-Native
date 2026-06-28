@@ -1,56 +1,103 @@
-# Welcome to your Expo app 👋
+# 📱 React Native Navigation Learning
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beginner-friendly React Native project to learn different navigation patterns using **React Navigation** and **Expo Router**.
 
-## Get started
+## 🚀 Topics Covered
 
-1. Install dependencies
+* ✅ Stack Navigation
+* ✅ Tab Navigation
+* ✅ Drawer Navigation
+* ✅ Screen Navigation
+* ✅ Passing Parameters
+* ✅ Navigation Header
+* ✅ Navigation Options
+* ✅ Nested Navigation
+* ✅ Back Navigation
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tech Stack
 
-2. Start the app
+* React Native
+* Expo
+* Expo Router
+* TypeScript
+* React Navigation
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Project Structure
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+Stack-Navigation/
+│── app/
+│── components/
+│── assets/
+│── package.json
+│── tsconfig.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📖 What You'll Learn
 
-### Other setup steps
+* Create multiple screens
+* Navigate between screens
+* Build Stack Navigation
+* Create Bottom Tabs
+* Add a Drawer Menu
+* Customize headers
+* Pass data between screens
+* Organize navigation files
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## ▶️ Getting Started
 
-## Learn more
+### Clone the repository
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+git clone <repository-url>
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Install dependencies
 
-## Join the community
+```bash
+npm install
+```
 
-Join our community of developers creating universal apps.
+### Start the development server
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+## 📚 Navigation Types
+
+### 📌 Stack Navigation
+
+* Push Screens
+* Pop Screens
+* Replace Screens
+* Navigate Between Screens
+
+### 📌 Tab Navigation
+
+* Bottom Tabs
+* Icons
+* Active Tab Styling
+* Screen Switching
+
+### 📌 Drawer Navigation
+
+* Side Drawer
+* Drawer Items
+* Custom Drawer Content
+* Navigation Between Drawer Screens
+
+## 🎯 Goal
+
+The purpose of this repository is to understand the fundamentals of React Native navigation by building practical examples for Stack, Tab, and Drawer Navigation.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository, improve the project, and submit a pull request.
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
+
+Happy Coding! 🚀
