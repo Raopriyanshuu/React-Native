@@ -1,56 +1,187 @@
-# Welcome to your Expo app 👋
+# 🔐 Login & Register UI using Expo Router
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **React Native Login & Register UI** built with **Expo** and **Expo Router**. This project focuses on creating clean authentication screens with navigation between Login and Signup pages.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Screenshots
 
-   ```bash
-   npm install
-   ```
+> Replace the image paths below with your own screenshots.
 
-2. Start the app
+### Login Screen
 
-   ```bash
-   npx expo start
-   ```
+<p align="center">
+  <img src="./screenshots/login.png" alt="Login Screen" width="280"/>
+</p>
 
-In the output, you'll find options to open the app in a
+### Register Screen
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<p align="center">
+  <img src="./screenshots/register.png" alt="Register Screen" width="280"/>
+</p>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Features
 
-When you're ready, run:
+* Modern Login UI
+* Register (Sign Up) UI
+* Background Image
+* Responsive Layout
+* Reusable Button Component
+* Expo Router Navigation
+* Clean Folder Structure
+* TypeScript Support
 
-```bash
-npm run reset-project
+---
+
+## 🛠️ Tech Stack
+
+* React Native
+* Expo
+* Expo Router
+* TypeScript
+* React Native Components
+
+---
+
+## 📂 Project Structure
+
+```text
+login-register-ui/
+│── src/
+│   └── app/
+│       ├── _layout.tsx
+│       ├── index.tsx
+│       ├── login.tsx
+│       └── signup.tsx
+│
+│── components/
+│   └── button.tsx
+│
+│── assets/
+│   └── images/
+│       ├── background.jpg
+│       └── ...
+│
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 📚 Topics Covered
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+* Expo Project Setup
+* Expo Router
+* File-based Routing
+* Stack Navigation
+* React Native Components
 
-## Learn more
+  * View
+  * Text
+  * TextInput
+  * ImageBackground
+  * Image
+  * TouchableOpacity
+  * Pressable
+  * SafeAreaView
+* Flexbox Layout
+* Styling with StyleSheet
+* Reusable Components
+* Props
+* Navigation Between Screens
+* Handling User Input
+* Keyboard Management
+* Assets Management
+* TypeScript Basics
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📦 Installation
 
-## Join the community
+Clone the repository
 
-Join our community of developers creating universal apps.
+```bash
+git clone <repository-url>
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Navigate to the project
+
+```bash
+cd login-register-ui
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npx expo start
+```
+
+Run on Android
+
+```bash
+a
+```
+
+Run on iOS (macOS)
+
+```bash
+i
+```
+
+Run on Web
+
+```bash
+w
+```
+
+---
+
+## 📖 What I Learned
+
+* Creating React Native screens using Expo
+* Implementing file-based navigation with Expo Router
+* Building reusable UI components
+* Using ImageBackground for attractive interfaces
+* Managing project assets
+* Designing responsive mobile layouts
+* Organizing React Native projects
+
+---
+
+## 📸 Future Improvements
+
+* Firebase Authentication
+* Form Validation
+* Password Visibility Toggle
+* Remember Me
+* Forgot Password Screen
+* Social Login (Google & GitHub)
+* Dark Mode
+* Animations
+* Backend Integration
+* Secure Authentication Flow
+
+---
+
+## 📚 Useful Resources
+
+* Expo Documentation
+* Expo Router Documentation
+* React Native Documentation
+* TypeScript Documentation
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub!
+
+Happy Coding! 🚀
