@@ -4,24 +4,6 @@ A simple **React Native Login & Register UI** built with **Expo** and **Expo Rou
 
 ---
 
-## 📱 Screenshots
-
-> Replace the image paths below with your own screenshots.
-
-### Login Screen
-
-<p align="center">
-  <img src="./screenshots/login.png" alt="Login Screen" width="280"/>
-</p>
-
-### Register Screen
-
-<p align="center">
-  <img src="./screenshots/register.png" alt="Register Screen" width="280"/>
-</p>
-
----
-
 ## 🚀 Features
 
 * Modern Login UI
