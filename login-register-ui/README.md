@@ -1,6 +1,6 @@
 # 🔐 Login & Register UI using Expo Router
 
-A simple **React Native Login & Register UI** built with **Expo** and **Expo Router**. This project focuses on creating clean authentication screens with navigation between Login and Signup pages.
+A simple **React Native Login & Register UI** built with **Expo** and **Expo Router**. This project focuses on creating navigation between Login and Signup pages.
 
 ---
 
@@ -85,7 +85,7 @@ login-register-ui/
 Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Raopriyanshuu/React-Native.git
 ```
 
 Navigate to the project
